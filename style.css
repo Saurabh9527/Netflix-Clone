@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+/* ---------------------First Div Starting --------------------------- */
+
+.firstdiv{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) ,url(back.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    border-bottom: 4px solid  rgb(101, 99, 104);;
+   
+}
+
+img{
+    width: 150px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+   
+}
+
+
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.inner{
+    padding-bottom: 30px;
+    padding-right: 10px;
+    margin: 10px;
+    
+}
+
+
+/* Internet---------------------- */
+select {
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 2rem;
+    padding: 0.5em 3.5em 0.5em 2em;
+    line-height: 1.5em;
+    padding-right: 2rem;  
+    background-color: rgba(161, 155, 155, 0.896);
+    color:white;
+    cursor: pointer;
+
+}
+
+
+button{
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    /* background-color: rgb(131, 127, 127);  */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-left: 6px;
+    background: transparent;
+}
+.second{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+   
+}
+
+
+.headlines{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+}
+p{
+    font-size: 1.7em;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+   
+}
+.sign-in{
+    background-color: red;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 11px 20px;
+}
+
+/* ---------------------First Div Ending --------------------------- */
+
+
+/* ---------------------Second Div Starting--------------------------- */
+.features{
+    padding: 50px  12%;
+    /* font-size: 22px; */
+    border-top: 4px solid  rgb(101, 99, 104);;
+    border-bottom: 4px solid  rgb(101, 99, 104);
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20% 0;
+ 
+
+}
+
+.txt{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.vid{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+   
+
+}
+.vid video{
+    display: block;
+    width: 100%;
+    margin:auto;
+    height: 250px;
+    border: 2px solid rgb(101, 99, 104);
+    border-radius: 30px;
+    margin-left: 40px;
+    
+    
+}
+#txthead{
+    font-weight:bolder;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+
+/* ---------------------Third Div Ending--------------------------- */
+
+.features2{
+    padding: 50px  12%;
+    /* font-size: 22px; */
+    border-top: 4px solid  rgb(101, 99, 104);;
+    border-bottom: 4px solid  rgb(101, 99, 104);
+    
+
+}
+.content2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20% 0;
+ 
+
+}
+
+.txt2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.vid2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+   
+
+}
+.img1 img{
+    display: block;
+    width: 100%;
+    margin:auto;
+    position: relative;
+    height: 320px;
+    /* border: 2px solid rgb(101, 99, 104);
+    border-radius: 30px; */
+    margin-right: 40px;
+    
+    
+}
+#txthead2{
+    font-weight:bolder;
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 50px;
+}
+#txtheadp2{
+    margin-left: 50px;
+}
+
+/* ----------------------------------------------------------------- */
+
+
+.question{
+    padding: 40px  12%;
+    /* font-size: 22px; */
+    border-top: 4px solid  rgb(101, 99, 104);;
+    border-bottom: 4px solid  rgb(101, 99, 104);
+    text-align: center;
+
+}
+
+.question h2{
+    font-weight:bolder;
+    font-size: 60px;
+    padding: 30px;
+}
+
+
+  details.outside-design{
+    padding: 1em;
+    border: 2px solid rgb(9, 0, 0);
+    border-radius: 4px;
+    text-align: left;
+    margin-bottom: 7px;
+    background-color:rgb(47, 44, 44);
+  }
+
+  details.outside-design summary{
+    cursor: pointer;
+  }
+  
+  /* When Q is Open that time ki padding */
+  details[open].outside-design summary{
+    padding-bottom: 0.5em;
+  }
+  
+
+  /* When Q is Open that time ki background */
+  /* details[open].outside-design{
+    background-color: rgb(88, 85, 85);
+  } */
+
+
+
+  /*q open hone ke baar ka color
+   details[open] summary{
+    background-color: black
+} */
+
+
+/* qopen ke baad ka  */
+  details .text-section{
+    padding:26px 30px;
+    text-align: justify; 
+
+}
+
+details[open] summary{
+    background-color:rgb(47, 44, 44);
+}
+
+summary::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 200px;
+    font-weight: bolder;
+    
+}
+summary{
+    height: 50px;
+    font-weight:700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#last-bt{
+    background-color: red;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 11px 20px;
+    margin: 20px;
+    
+
+}
+
+
+
+/* --------------------------------------------FOoter_______________________ */
+.foot{
+    border-top: 4px solid  rgb(101, 99, 104);;
+    border-bottom: 4px solid  rgb(101, 99, 104);
+    color: #777;
+      
+}
+.foot h2{
+   font-size:18px;
+   font-weight: 400;
+   margin-bottom: 30px;
+   margin-top: 40px;
+   margin-left: 60px;
+}
+
+
+.foot .co{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+
+.foot .co a{
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+
+.ro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
